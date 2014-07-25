@@ -13,5 +13,8 @@
   ],
   "license": "MIT",
   "homepage": "lyatsevich.com",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "uikit": "~2.8.0"
+  }
 }

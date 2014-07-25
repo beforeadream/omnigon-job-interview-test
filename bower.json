@@ -15,6 +15,10 @@
   "homepage": "lyatsevich.com",
   "private": true,
   "dependencies": {
-    "uikit": "~2.8.0"
+    "uikit": "~2.8.0",
+    "requirejs": "~2.1.14",
+    "angular": "~1.2.20",
+    "angularAMD": "~0.2.0",
+    "angular-route": "~1.2.20"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "omnigon-task",
+  "version": "0.0.1",
+  "authors": [
+    "beforeadream@gmail.com"
+  ],
+  "description": "Test task for omnigon",
+  "main": "index.html",
+  "keywords": [
+    "test",
+    "task",
+    "interview"
+  ],
+  "license": "MIT",
+  "homepage": "lyatsevich.com",
+  "private": true
+}

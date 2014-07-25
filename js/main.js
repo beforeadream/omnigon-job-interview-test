@@ -1,6 +1,6 @@
 /*global require*/
 require.config({
-    baseUrl: 'js',
+    baseUrl: '/',
     paths: {
         'jquery': 'bower_components/jquery/jquery.min',
         'uikit': 'bower_components/uikit/dist/js/uikit.min',
@@ -15,5 +15,5 @@ require.config({
         'angularAMD': ['angular'],
         'angular-route': ['angular']
     },
-    deps: ['app']
+    deps: ['js/app']
 });

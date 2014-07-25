@@ -8,7 +8,9 @@
 </head>
 <body>
     <div class="uk-container uk-container-center uk-margin-top">
-
+        <div ng-include src="'views/header.html'"></div>
+        <div ng-view></div>
+        <div ng-include src="'views/footer.html'"></div>
     </div>
 </body>
 </html>

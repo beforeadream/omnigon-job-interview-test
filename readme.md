@@ -29,3 +29,10 @@ Setup virtualhost for omnigon-test-task folder http://goo.gl/JBnX2e
 ```
 bower install
 ```
+
+## Features ##
+
+Application starts from `js/app.js`. It runs `ngRoute` module and there is configuration for `$routeProvider`.
+At this moment exists only one controller `mainCtrl` and it is default controller on application.
+
+Find in folder `controllers` file `main.js` and you will able to see that it calls new custom service `tweeManager` and passes few arguments according to specification.

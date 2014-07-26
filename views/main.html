@@ -1,0 +1,13 @@
+<div class="uk-grid" data-uk-grid-match="{target:'.uk-panel'}">
+    <div class="uk-width-6-10 uk-push-2-10 uk-container-center uk-grid-margin" ng-repeat="message in messages">
+        <div class="uk-panel uk-panel-box uk-panel-box-primary">
+            <div class="uk-panel-badge uk-badge">
+                {{ message.created_at | limitTo: 10 }}
+            </div>
+            <h3 class="uk-panel-title">
+                @{{message.user.screen_name}}
+            </h3>
+            {{ message.text }}
+        </div>
+    </div>
+</div>

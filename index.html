@@ -3,15 +3,16 @@
 <head>
     <title>Omnigon Test Task</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="bower_components/uikit/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="bower_components/uikit/dist/css/addons/uikit.addons.min.css" />
+    <link rel="stylesheet" href="bower_components/uikit/dist/css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="bower_components/uikit/dist/css/addons/uikit.almost-flat.addons.min.css" />
+    <link rel="stylesheet" href="bower_components/nprogress/nprogress.css" />
     <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
 </head>
 <body>
-    <div class="uk-container uk-container-center uk-margin-top">
-        <div ng-include src="'views/header.html'"></div>
-        <div ng-view></div>
-        <div ng-include src="'views/footer.html'"></div>
-    </div>
+<div class="uk-container uk-container-center uk-margin-top uk-margin-bottom">
+    <div ng-include src="'views/header.html'"></div>
+    <div ng-view></div>
+    <div ng-include src="'views/footer.html'"></div>
+</div>
 </body>
 </html>

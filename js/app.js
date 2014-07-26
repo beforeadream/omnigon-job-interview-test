@@ -1,16 +1,16 @@
 define(['angularAMD', 'angular-route'], function (angularAMD) {
     'use strict';
 
-    var app = angular.module("webapp", ['ngRoute']);
+    var app = angular.module("omnigon", ['ngRoute']);
 
     app.config(function ($routeProvider) {
         $routeProvider.when(
-            '/start', angularAMD.route({
-                templateUrl: 'views/start.html',
-                controller: 'startCtrl',
-                controllerUrl: 'controllers/start'
+            '/main', angularAMD.route({
+                templateUrl: 'views/main.html',
+                controller: 'mainCtrl',
+                controllerUrl: 'controllers/main'
             })
-        ).otherwise({redirectTo: "/start"});
+        ).otherwise({redirectTo: "/main"});
     });
 
     angularAMD.bootstrap(app);

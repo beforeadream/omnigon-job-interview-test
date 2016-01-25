@@ -1,38 +1,20 @@
-# Omnigon Test Task #
+# Omnigon Job Interview Test #
 
+http://www.omnigon.com/
+
+## Installation
 ```JavaScript
- ______     __    __     __   __     __     ______     ______     __   __    
-/\  __ \   /\ "-./  \   /\ "-.\ \   /\ \   /\  ___\   /\  __ \   /\ "-.\ \   
-\ \ \/\ \  \ \ \-./\ \  \ \ \-.  \  \ \ \  \ \ \__ \  \ \ \/\ \  \ \ \-.  \  
- \ \_____\  \ \_\ \ \_\  \ \_\\"\_\  \ \_\  \ \_____\  \ \_____\  \ \_\\"\_\ 
-  \/_____/   \/_/  \/_/   \/_/ \/_/   \/_/   \/_____/   \/_____/   \/_/ \/_/ 
-                                                                             
+bower i
 ```
 
-## Requirements ##
+## History
 
-- Apache
-- Git
-- NPM
-- Bower
+TODO: Write history
 
-## How to run ##
+## Credits
 
-```
-git clone https://beforeadream@bitbucket.org/beforeadream/omnigon-test-task.git
-```
+TODO: Write credits
 
-```
-Setup virtualhost for omnigon-test-task folder http://goo.gl/JBnX2e
-```
+## License
 
-```
-bower install
-```
-
-## Features ##
-
-Application starts from `js/app.js`. It runs `ngRoute` module and there is configuration for `$routeProvider`.
-At this moment exists only one controller `mainCtrl` and it is default controller on application.
-
-Find in folder `controllers` file `main.js` and you will able to see that it calls new custom service `tweeManager` and passes few arguments according to specification.
+MIT © [Valery Lyatsevich](http://lyatsevich.com)
